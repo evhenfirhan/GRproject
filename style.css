@@ -1,0 +1,181 @@
+body {
+	margin: 0px;
+	background-image: url(car11.png);
+    background-repeat: no-repeat;
+}
+
+/*MAIN MENU*/
+ol {
+	float: right;
+	list-style: none;
+	color: #212123;;
+	width:45%;
+}
+
+.menulist {
+	margin: 0px;
+}
+
+.menu_m {
+	width: 100%;
+	height: 100px;
+	background: #212123;
+}
+
+.link_menu {
+	text-decoration: none;
+	color: white;
+	text-align: center;
+}
+
+.li_menu {
+	text-align: center;
+	display: inline-block;
+	margin-top: 0px;
+	padding-top: 20px;
+	height: 80px;
+	width: 80px;
+	margin-right: 35px;
+}
+
+.title_menu {
+	text-transform: uppercase;
+	display: block;
+	font-family: Arial;
+	font-size: 15px;
+	color: #e8e8e8;
+}
+
+.fa-info-circle:before, 
+.fa-phone:before {
+	font-size: 24px;
+}
+
+.transif {
+	font-size: 4em;
+	font-family: 'Audiowide', cursive;;
+	font-style: italic;
+	display: block;
+	margin-left: 25px;
+	margin-bottom: -40px;
+	color: #e8e8e8;
+}
+
+.rent {
+	font-size: 1em;
+	font-family: 'Audiowide', cursive;
+	margin-left: 135px;
+	display: block;
+	color: #e8e8e8;
+	margin-top:21px;
+}
+/*MAIN MENU-END*/
+
+/*FORM STYLE*/
+h1 {
+	font-size: 32px;
+	color: #1A1E20;
+	text-align: center;
+	font-family: 'coolsville';
+	margin-top:245px;
+	text-transform: uppercase;
+	font-weight: 600;
+}
+.form1{
+	margin-left: 310px;
+	font-family: Arial;
+	font-size: 24px;
+	margin-bottom:255px;
+	color: #1A1E20;
+}
+button{
+	width: 120px;
+	height: 30px;
+	font-family: Arial;
+	font-size: 18px;
+	color: #1A1E20;
+}
+/*The END of the "Form Style"*/
+
+/*Transport Categories*/
+.categories_header{
+	margin-left: 470px;
+	font-style: Arial;
+	font-size: 28px;
+	color:white;
+	background-color: #222B38;
+}
+.transport_list{
+	background-color: #222B38;
+}
+.categ_images1 img {
+	width: 218px;
+    height: 218px;
+    display:inline;
+    padding: 10px;
+    margin-left:170px;
+}
+.categ_images2 img {
+	width: 218px;
+    height: 218px;
+	display:inline-block;
+    margin-left:330px;
+    margin-right:-70px;
+    margin-bottom: 70px;
+}
+/*The END of the"Transport Categories"*/
+
+/*MAP*/
+#googleMap{
+	width:100%;
+	height:550px;
+}
+/*MAP*/
+
+/*About US*/
+
+.abt_us{
+	background: #3B4A60;
+	padding: 10px 50px 20px 50px;
+}
+	.abt_us_h {
+		font-family: Arial;
+		color: white;
+		text-align: center;
+		font-size: 28px;
+	}
+
+	.we_are_smt{
+		margin: 10px;
+		color: white;
+		font-size: 22px; 
+		font-family: "sans-serif";
+		text-align: justify;
+
+	}
+
+	.br {
+		line-height: 0em;
+	}
+
+/*The End of the "About US"*/
+
+/*footer*/
+
+footer {
+	width: 100%;
+	height: 20px;
+	background-color: #222B38;
+	padding:5px;
+}
+
+.footer{
+	color:white;
+	margin-left: 560px;
+}
+
+/*The end of the footer*/
+
+
+
+

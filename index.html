@@ -1,0 +1,94 @@
+<html>
+<head>
+	<title>GrPrj</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="main.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <!--fafa icons-->
+    <link href="https://fonts.googleapis.com/css?family=Audiowide" rel="stylesheet"> <!-- LOGO FONT -->
+</head>
+<body>
+
+<!--Main Menu-->
+	<header class="menu_m">
+		<ol class="menulist">
+		<li class="li_menu"><a href="" class="link_menu"><i class="fa fa-home" style="font-size:24px;" aria-hidden="true"></i><span class="title_menu">Home</span></a></li>
+		<li class="li_menu"><a href="" class="link_menu"><i class="fa fa-clock-o" style="font-size:24px;" aria-hidden="true"></i> <span class="title_menu">Quick rent</span></a></li>
+		<li class="li_menu"><a href="" class="link_menu"><i class="fa fa-puzzle-piece" style="font-size:24px;" aria-hidden="true"></i><span class="title_menu">Categories</span></a></li>
+		<li class="li_menu"><a href="" class="link_menu"><i class="fa fa-info-circle" style="font-size:12px;" aria-hidden="true"></i><span class="title_menu">About</span></a></li>
+		<li class="li_menu" style="margin-right: 0px;"><a href="" class="link_menu"><i class="fa fa-phone"  style="font-size:12px;" aria-hidden="true"></i><span class="title_menu">Contacts</span></a></li>
+		</ol>
+		<span class="transif">TransIF</span>
+		<span class="rent">RENT</span>
+	</header>
+<!--The end of the "Main Menu"-->
+
+<!--Quick-call menu-->
+		<h1>Just write your contacts and we'll call You in a minute!</h1>
+		<form class="form1">
+		Your Name
+		<input type="text" name="name">
+		Your Phone
+		<input type="text" name="phone">
+		<button type="button">Send</button>
+		</form>
+<!--The end of the "Quick-call menu"-->
+
+<!--Transport list div-->
+<div class="transport_list">
+
+<div class="categories_header">
+<h2>Car Rental Categories</h2>
+</div>
+
+<div class="categ_images1">		
+<img src="jpg/car1.png" alt="">
+<img src="jpg/car2.png" alt="">
+<img src="jpg/car3.png" alt="">
+</div>
+
+<div class="categ_images2">	
+<img src="jpg/car4.png" alt="">	
+<img src="jpg/car5.png" alt="">	
+</div>
+
+</div>
+<!--The end of the "Transport list div"-->
+
+<!--Map-->
+<div id="googleMap"></div>
+
+<script>
+function myMap() {
+var mapProp= {
+    center:new google.maps.LatLng(48.923969, 24.723090),
+    zoom:18,
+};
+var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+}
+</script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCuZdUNFqP9hSSfjFDkzPBeLbTWUrq75fE&callback=myMap"></script>
+<!-- The end of the Map-->
+
+<!-- About us DIV-->
+	<div class="abt_us">
+<h2 class="abt_us_h">ABOUT US</h2>
+<p class="we_are_smt">
+			We Are.We Are.We Are.We Are.We Are.We Are.We Are.We Are.We Are.We Are.We Are.We Are.We Are.We Are.We Are.We Are.We Are.We Are.We Are.We Are.We Are.We Are.We Are.We Are.We Are.We Are.We Are.We Are.We Are.We Are.We Are.We Are.We Are.We Are.We Are.We Are.We Are.We Are.We Are.We Are.We Are.We Are.We Are.We Are.We Are.We Are.We Are.We Are.We Are.We Are.We Are.We Are.We Are.We Are.We Are.We Are.We Are.We Are.We Are.We Are.We Are.We Are.We Are.We Are.We Are.We Are.We Are.We Are.We Are.We Are.We Are.We Are.We Are.We Are.We Are.We Are.We Are.We Are.We Are.We Are.We Are.We Are.We Are.We Are.We Are.We Are.We Are.We Are.We Are.We Are.We Are.We Are.We Are.We Are.We Are.We Are.We Are.We Are.We Are.We Are.We Are.We Are.We Are.We Are.We Are.We Are.We Are.We Are.We Are.We Are.We Are.We Are.We Are.We Are.We Are. 
+</p>
+</div>
+<!-- The end of the "About us DIV"-->
+
+<!-- footer -->
+	<footer>
+		<div class="footer">
+			TransIf Rent, Ivano-Frankivsk, 2017.
+		</div>
+	</footer>
+<!-- footer -->
+</body>
+</html>
+
+
+
